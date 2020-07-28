@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "job-spider"
+version = "0.1.0"
+description = ""
+authors = ["jack-zheng <lanmolei0124@163.com>"]
+
+[[tool.poetry.source]]
+name = "douban"
+url = "http://pypi.douban.com/simple"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
